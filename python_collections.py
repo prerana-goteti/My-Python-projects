@@ -47,3 +47,11 @@ student_record_5 = {
     "School Bus" : "#01"
 }
 print(student_record_5)
+
+# extra sets exercise:
+
+thiset1 = {"Apples", "Cherries", "Oranges", "Chips", "Cookies"}
+thiset2 = {"Lip Balm", "Lipstick", "Concealer", "Bronzer", "Blush"}
+
+thiset3 = thiset1.union(thiset2)
+print(thiset3)
