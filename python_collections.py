@@ -55,3 +55,17 @@ thiset2 = {"Lip Balm", "Lipstick", "Concealer", "Bronzer", "Blush"}
 
 thiset3 = thiset1.union(thiset2)
 print(thiset3)
+
+
+stid = input("enter the student id: ")
+
+if stid == "085830":
+    print(student_record_1)
+elif stid == "30946":
+    print(student_record_2)
+if stid == "30685":
+    print(student_record_3)
+if stid == "31862":
+    print(student_record_4)
+if stid == "39860":
+    print(student_record_5)
